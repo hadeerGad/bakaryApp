@@ -1,0 +1,120 @@
+ h1 h2 h3 h4 h5  {
+   color: #303030; 
+   font-size: 50px;
+   font-family: 'Alegreya Sans', sans-serif;
+}
+p{
+    color: #888;
+    font-size: 22px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+/*=========================home section========================================= */
+.homeSection{
+  
+    text-align: center;
+    height: 100vh;
+    background-image: url(images/home.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+   
+    overflow: auto;
+}
+.homeSection p{
+    color: #ffff;
+    font-size: 22px;
+}
+.homeSection h1{
+    color: #ffff;
+    font-size: 55px;
+}
+.homeSection .btn{
+border: none;
+padding: 15px 25px;
+background-color: transparent;
+color: #ffff;
+}
+.homeSection .btn2{
+    border: solid 2px white;
+}
+.homeSection .btn1{
+    background-color: #8e7754;
+}
+.homeContent{
+ 
+    margin-top: 100px;
+}
+/*==========================our baking section======================================== */
+.ourBaking{
+    margin-top: 30px;
+    background-color:  #f8f8f8;
+}
+.bakingText{
+   
+    text-align: center;
+}
+.bakingItem{
+    text-align: center;
+    width: 33.33%;
+    float: left;
+}
+.bakingItem img{
+    width: 90%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*==========================Who we are? section======================================== */
+.whoAreWeImg{
+ 
+    width: 40%;
+    text-align: center;
+}
+.whoAreWeImg img{
+    width: 90%;
+}
+.whoAreWeText{
+    width: 60%;
+}
+.weareFloat{
+float: left;
+}
+.whoAreWe{
+    background-color:  #f8f8f8;
+    margin-top: 30px;
+}
+
+/*==========================our location section======================================== */
+.ourLocation{
+    background-color:  #f8f8f8;
+    margin-top: 30px;
+}
+
+.ourLocationText{
+    width: 50%;
+}
+.ourLocationImg{
+    width: 50%;
+    text-align: center;
+}
+.ourLocationImg img{
+    width: 70%;
+}
+
+/*==========================footer section======================================== */
+.footer{
+    color: #A9A9A9;
+    background-color: #403d38;
+}
+.aboutUs{
+  
+    width: 25%;
+}
+.footer-bottom{
+    background-color: #151515;
+    text-align: center;
+   padding-top: 50px;
+}
